@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CESAE_FrontEnd.iml" filepath="$PROJECT_DIR$/.idea/CESAE_FrontEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha01/Ficha01.iml" filepath="$PROJECT_DIR$/Ficha01/Ficha01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha02/Ficha02.iml" filepath="$PROJECT_DIR$/Ficha02/Ficha02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorldJava/HelloWorldJava.iml" filepath="$PROJECT_DIR$/HelloWorldJava/HelloWorldJava.iml" />
+    </modules>
+  </component>
+</project>

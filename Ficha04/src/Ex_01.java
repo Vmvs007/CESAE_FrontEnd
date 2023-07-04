@@ -6,7 +6,6 @@ public class Ex_01 {
         // Declara as variáveis
         double num1=0, num2=0;
         String opcao,continuar;
-
         System.out.println("***** Ficha 4 - Exercicio 1 *****");
 
         // Menu

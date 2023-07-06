@@ -15,7 +15,6 @@ public class Ex_01 {
 
         // Ciclo para introduzir numeros no vetor
         for(int i=0; i<10 ; i++){
-
             System.out.print("Introduza um numero no vetor["+i+"]: ");
             vetor[i]= input.nextInt();
         }

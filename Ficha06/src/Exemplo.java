@@ -19,14 +19,6 @@ public class Exemplo {
     }
 
 
-    /**
-     * Função que soma 5 a um número
-     * @param num - Número original
-     * @return Número mais 5
-     */
-    static int somar5 (int num){
-        return num+5;
-}
 
 
 
@@ -47,7 +39,5 @@ public class Exemplo {
         maior = maiorNumero(num1,num2);
 
         System.out.println("Maior: "+maior);
-
-        System.out.println(num1 + " + 5 = "+ somar5(num1));
     }
 }

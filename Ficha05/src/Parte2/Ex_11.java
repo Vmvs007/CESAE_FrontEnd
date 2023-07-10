@@ -12,8 +12,6 @@ public class Ex_11 {
         int[][] matriz = new int[3][3];
         int menor,maior;
 
-
-
         // Ler input do utilizador para a matriz
         for(int linha=0;linha < matriz.length ;linha++){
             for(int coluna =0 ; coluna<matriz[0].length; coluna++){

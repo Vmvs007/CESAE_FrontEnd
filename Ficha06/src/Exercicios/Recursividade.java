@@ -17,12 +17,14 @@ public class Recursividade {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int n;
+        int n, resultado;
 
+        // Ler input do utilizador
         System.out.println("Insira um número: ");
         n=input.nextInt();
 
-        int resultado = calcularFatorial(n);
+        
+        resultado = calcularFatorial(n);
         System.out.println("O fatorial de " + n + ": " + resultado);
     }
 }

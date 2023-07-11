@@ -1,3 +1,5 @@
+package Exercicios;
+
 import java.util.Scanner;
 
 public class Recursividade {
@@ -15,7 +17,7 @@ public class Recursividade {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int n ;
+        int n;
 
         System.out.println("Insira um número: ");
         n=input.nextInt();

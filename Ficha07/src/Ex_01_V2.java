@@ -1,17 +1,13 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Ex_01 {
-    public static void main(String[] args) throws FileNotFoundException {
+public class Ex_01_V2 {
+
+    public static void imprimirFicheiro(File ficheiro) throws FileNotFoundException {
 
         // Declarar variáveis
         String linhaFicheiro;
-
-        // Abrir o ficheiro
-        File ficheiro = new File("files/exercicio_01_Alternativa02.txt");
-
         // Instanciar o Scanner
         Scanner scannerFile = new Scanner(ficheiro);
 
@@ -22,12 +18,14 @@ public class Ex_01 {
             // Imprimir linha do ficheiro
             System.out.println(linhaFicheiro);
         }
+    }
 
 
+    public static void main(String[] args) throws FileNotFoundException {
+
+        // Abrir o ficheiro
+        File ficheiro = new File("files/exercicio_01_Alternativa02.txt");
+        imprimirFicheiro(ficheiro);
 
     }
 }
-
-
-
-

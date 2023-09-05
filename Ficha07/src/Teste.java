@@ -2,32 +2,25 @@ package FichaPratica;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 
 public class Teste {
 
-    public static void criarFicheiro() throws FileNotFoundException {
 
-        String fileContent= "Este é o meu primeiro ficheiro em Java";
+    public static void main(String[] args) throws IOException {
 
-        File file= new File ("ficheiros/ex02.txt");
-    }
+        File ficheiro = new File("files/exercicio_02.txt");
 
-    public static void lerFicheiro() throws FileNotFoundException {
+            //objeto para escrita no ficheiro
+            FileWriter fileWriter = new FileWriter(ficheiro, true);
 
-        String fileContent= "Este é o meu primeiro ficheiro em Java";
+            //acrescentar conteudo da variável "texto" ao ficheiro
+            fileWriter.write("texto...\n");
+        fileWriter.write("teste de escrita...\n");
 
-        File file = new File("ficheiros/ex02.txt");
-        Scanner sc = new Scanner(file);
-
-        System.out.println(sc.nextLine());
-    }
-
-
-    public static void main(String[] args) throws FileNotFoundException {
-
-        criarFicheiro();
-        lerFicheiro();
-    }
+            fileWriter.close();
+        }
 }

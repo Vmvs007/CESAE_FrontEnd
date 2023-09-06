@@ -1,7 +1,11 @@
 package Ex_11;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
 
         // Instanciar Contas
         Conta conta1 = new Conta("12345", "Vitor");
@@ -9,8 +13,12 @@ public class Main {
 
         conta1.verDetalhes();
 
+        double valor;
+        System.out.print("Insira o valor a depositar: ");
+        valor = input.nextDouble();
+
         // Depositar
-        conta1.depositar(500);
+        conta1.depositar(valor);
 
         conta1.verDetalhes();
 
